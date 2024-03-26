@@ -6,9 +6,9 @@ def roman_to_int(roman_string):
 # Initializing the result variable to zero
     result = 0
 # Looping through the Roman Numeral string and adding the corresponding value to the result variable
-    for i in range(len(roman_string)):
-        if i > 0 and roman_dict[roman_string[i]] > roman_dict[roman_string[i-1]]:
-            result += roman_dict[roman_string[i]] - 2 * roman_dict[roman_string[i-1]]
+    for j in range(len(roman_string)):
+        if j > 0 and roman_dict[roman_string[j]] > roman_dict[roman_string[j-1]]:
+            result += roman_dict[roman_string[j]] - 2 * roman_dict[roman_string[j-1]]
         else:
-            result += roman_dict[roman_string[i]]
+            result += roman_dict[roman_string[j]]
     return (result)
