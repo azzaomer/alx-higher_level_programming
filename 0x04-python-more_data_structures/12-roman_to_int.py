@@ -6,7 +6,7 @@ def roman_to_int(roman_string):
     result = 0
 
 # Looping through the Roman Numeral string and adding the corresponding value to the result variable
-    if not roman_string:
+    if not roman_string or type(roman_string) != str:
         return 0
     for i in range(len(roman_string)):
         if i > 0 and roman_dict[roman_string[i]] > roman_dict[roman_string[i-1]]:
