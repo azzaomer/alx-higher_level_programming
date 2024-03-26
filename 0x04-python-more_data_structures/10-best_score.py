@@ -1,7 +1,5 @@
 def best_score(a_dictionary):
-    if bool(a_dictionary) == False:
-        return ('None')
-    else:
-        Key_max = max(a_dictionary, key = lambda x: a_dictionary[x])
+    if a_dictionary:
+        Key_max = max(a_dictionary, key=a_dictionary.get)
         return (Key_max)
        
