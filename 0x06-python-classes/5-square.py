@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-#!/usr/bin/python3
 """class Square"""
 
 
@@ -20,12 +19,13 @@ class Square:
 
     def area(self):
         return self.__size ** 2
-    
+
     def my_print(self):
         for i in range(self.size):
             print("#" * self.size)
         else:
             print()
+
     @property
     def size(self):
         return self.__size
