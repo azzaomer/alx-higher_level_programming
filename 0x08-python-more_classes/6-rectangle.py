@@ -98,7 +98,7 @@ class Rectangle:
             return 2 * (self.__height + self.__width)
 
     def __str__(self):
-        """Prints the rectangle with the character # .
+        """Prints the rectangle with the char # .
 
         Returns:
             str: the rectangle
