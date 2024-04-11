@@ -1,8 +1,9 @@
-"""
+# The ``0-add_integer`` module
+============================================
 How to use 0-add_integer.py
 ============================================
 
-This library has one function called `add_integer()`
+This library has one function called ``add_integer()``
 
 Numbers
 =======
