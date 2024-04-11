@@ -5,6 +5,7 @@ Attributes:
     add_integer: function that adds two integers.
 """
 
+
 def add_integer(a, b=98):
     """Args: a, b
     Raises: TypeError: If a and b are not integers or floats.

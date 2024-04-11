@@ -1,27 +1,18 @@
-# The ``0-add_integer`` module
-============================================
-How to use 0-add_integer.py
-============================================
+The ``Add Integer`` module
+============================
 
-This library has one function called ``add_integer()``
-
-Numbers
-=======
+Using ``add_integer``
+---------------------
 
 ``add_integer()`` returns the sum of its arguments. The default argument
 for b is 98. For numbers, that value is equivalent to using the ``+``
 operator:
 
-Importing the function add_integer.
-    >>> add_integer = __import__('0-add_integer').add_integer
-	>>> add_integer(1, 2)
-	3
+Importing the function add_integer
 
-Non-Numbers
-===========
+	>>> add_integer = __import__("0-add_integer").add_integer
 
-Because add_integer() doesn't take non-numbers it should throw an error
-if a non-number is passed as one of its arguments.
+Now use it:
 
 Adding an integer and an integer.
 >>> add_integer(1, 2)
