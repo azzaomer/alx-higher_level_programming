@@ -6,6 +6,7 @@ This module supplies one function, matrix_divided(),
 which divides all elements of a matrix.
 """
 
+
 def matrix_divided(matrix, div):
     """Divides all elements of a matrix.
 
@@ -31,7 +32,7 @@ def matrix_divided(matrix, div):
             row_size = len(i)
         elif row_size != len(i):
             raise TypeError("Each row of the matrix must have the same size")
-    
+
     if not isinstance(div, int) and not isinstance(div, float):
         raise TypeError("div must be a number")
 
@@ -39,4 +40,5 @@ def matrix_divided(matrix, div):
         raise ZeroDivisionError("division by zero")
 
     new_matrix = [[round(j / div, 2) for j in i] for i in matrix]
+
     return new_matrix
