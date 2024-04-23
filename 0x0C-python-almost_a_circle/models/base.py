@@ -1,10 +1,20 @@
-#!/usr/bin/python3
+#!C:\Users\OP\AppData\Local\Programs\Python\Python312\python.exe
 """Defines a class Base"""
 
 class Base:
+    """Class that defines properties of Base.
+
+     Attributes:
+        id (int): Identity of each instance.
+    """
     __nb_objects = 0
 
     def __init__(self, id=None):
+        """Creates new instances of Base.
+
+        Args:
+            id (int, optional): Identity of each instance. Defaults to None.
+        """
         if id is not None:
             self.id = id
         else:
