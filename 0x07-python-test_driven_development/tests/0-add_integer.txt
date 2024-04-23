@@ -1,0 +1,47 @@
+The ``Add Integer`` module
+============================
+
+Using ``add_integer``
+---------------------
+
+``add_integer()`` returns the sum of its arguments. The default argument
+for b is 98. For numbers, that value is equivalent to using the ``+``
+operator:
+
+Importing the function add_integer
+
+	>>> add_integer = __import__("0-add_integer").add_integer
+
+Now use it:
+
+Adding an integer and an integer.
+>>> add_integer(1, 2)
+3
+
+Adding a positive and a negative integer.
+>>> add_integer(101, -2)
+99
+
+Passing one argument.
+>>> add_integer(2)
+100
+
+Adding a float and an integer.
+>>> add_integer(3.0, 3)
+6
+
+Adding a float and a negative integer.
+>>> add_integer(100.3, -2)
+98
+
+Adding a string and an integer.
+>>> add_integer(4, "School")
+Traceback (most recent call last):
+    ...
+TypeError: b must be an integer
+
+Adding an integer and None.
+>>> add_integer(2, None)
+Traceback (most recent call last):
+       ...
+TypeError: b must be an integer
