@@ -1,9 +1,4 @@
-#!/usr/bin/python3
-# -----------------------------------------------------------
-# Python program that:
-# demonstrates how to convert a Roman numeral to an integer
-# ---------------------------------------------------
-
+#!/usr/bin/python
 def roman_to_int(roman_string):
     if not roman_string or type(roman_string) != str:
         return 0
