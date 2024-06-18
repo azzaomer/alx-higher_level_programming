@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "http://./0-javascript_is_amazing.js ",
+            "request": "launch",
+            "url": "http://./0-javascript_is_amazing.js "
+        }
+    ]
+}
