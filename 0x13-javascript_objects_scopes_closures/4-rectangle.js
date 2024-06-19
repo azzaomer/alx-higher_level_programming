@@ -1,4 +1,5 @@
 #!/usr/bin/node
+// rotate the rectangle
 module.exports = class Rectangle {
   constructor (w, h) {
     if (w > 0 && h > 0) {
