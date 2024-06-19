@@ -1,10 +1,12 @@
 #!/usr/bin/node
 
-const lang = 'C is fun';
-if (isNaN(process.argv[2])) {
-  console.log('Missing number of occurrences');
-} else {
-  for (let i = 0; i < parseInt(process.aegv[2]); i++) {
-  console.log(lang);
+function factorial (n) {
+    if (n < 0) {
+        return (-1);
+    }
+    if (n === 0 || isNaN(n)) {
+        return (1);
+    }
+    return (n * factorial(n - 1));
 }
-}
+    console.log(factorial(Number(process.argv[2])));
