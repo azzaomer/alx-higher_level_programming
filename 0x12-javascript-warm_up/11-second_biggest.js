@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-if (process.argv.length === 2 || isNaN(process.argv[2])) {
+if (process.argv.length <= 3) {
   console.log('0');
 } else {
   let max = process.argv[1];
