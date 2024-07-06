@@ -12,6 +12,6 @@ from sys import argv
 if __name__ == "__main__":
     url = argv[1]
     value = {"email": argv[2]}
-    rq = requests.get(url, data=value)
+    rq = requests.post(url, data=value)
 
     print(rq.text)
