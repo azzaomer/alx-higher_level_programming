@@ -1,5 +1,6 @@
 #!/usr/bin/node
-
+//  script that prints x times “C is fun”
+// x is the first argument of the script
 function factorial (n) {
     if (n < 0) {
         return (-1);
