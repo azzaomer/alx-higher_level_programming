@@ -1,7 +1,6 @@
 #!/usr/bin/node
 
-<<<<<<< HEAD
-console.log(process.argv[2]+'is'+process.argv[2]);
-=======
+// a script that prints two arguments passed to it,
+// in the following format: “ is ”
 console.log(process.argv[2] + ' is ' + process.argv[3]);
->>>>>>> a6127a956cc51e54b12f5fecca27c181262ba170
+
