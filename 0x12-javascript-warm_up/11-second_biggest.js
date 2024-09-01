@@ -12,10 +12,10 @@ if (process.argv.length <= 3) {
     }
   }
   for (let j = 2; j < process.argv.length; j++) {
-    console.log(`argument` + process.argv[j])
+    console.log(`argument` + ${j} +  process.argv[j])
     if (process.argv[j] > maxTwo && process.argv[j] !== max) {
       maxTwo = process.argv[j];
-      console.log(process.argv[j])
+      console.log(`the second bigest: ` + process.argv[j])
     }
   }
   console.log(maxTwo);
