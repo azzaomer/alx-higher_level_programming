@@ -11,6 +11,7 @@ if (process.argv.length <= 3) {
       max = process.argv[i];
     }
   }
+  console.log(`The first max = ${max}`)
   console.log(`Initaial max 2 = ${maxTwo}`)
   for (let j = 2; j < process.argv.length; j++) {
     console.log(`argument ${j}: ` +  process.argv[j])
